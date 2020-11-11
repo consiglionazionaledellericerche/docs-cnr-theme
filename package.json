@@ -1,7 +1,7 @@
 {
-  "name": "docs-italia-theme",
+  "name": "docs-cnr-theme",
   "description": "Docs Italia theme è il tema Sphinx di riferimento per Docs Italia",
-  "repository": "https://github.com/italia/docs-italia-theme",
+  "repository": "https://github.com/italia/docs-cnr-theme",
   "version": "1.2.0-beta",
   "license": "MIT",
   "engines": {

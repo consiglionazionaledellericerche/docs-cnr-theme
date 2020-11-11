@@ -19,7 +19,7 @@ setup(
     description = __doc__,
     long_description = codecs.open('README.md', 'r', 'utf-8').read(),
     zip_safe = False,
-    packages = ['docs_cnr_theme', 'docs-italia-theme'],
+    packages = ['docs_cnr_theme', 'docs-cnr-theme'],
     package_data = {'docs_cnr_theme': [
         'theme.conf',
         '*.html',

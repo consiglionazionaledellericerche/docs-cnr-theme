@@ -12,15 +12,15 @@ package_data = json.load(package_file)
 
 
 setup(
-    name = 'docs_italia_theme',
+    name = 'docs_cnr_theme',
     version = package_data['version'],
     license = package_data['license'],
     author = 'Team per la Trasformazione Digitale - AgID',
     description = __doc__,
     long_description = codecs.open('README.md', 'r', 'utf-8').read(),
     zip_safe = False,
-    packages = ['docs_italia_theme', 'docs-italia-theme'],
-    package_data = {'docs_italia_theme': [
+    packages = ['docs_cnr_theme', 'docs-italia-theme'],
+    package_data = {'docs_cnr_theme': [
         'theme.conf',
         '*.html',
         'static/css/*.css',
@@ -35,7 +35,7 @@ setup(
     # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
     entry_points = {
         'sphinx.html_themes': [
-            'docs_italia_theme = docs_italia_theme'
+            'docs_cnr_theme = docs_cnr_theme'
         ]
     },
     classifiers = [

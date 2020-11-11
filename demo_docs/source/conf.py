@@ -15,7 +15,7 @@ import sys, os
 from os.path import abspath, join, dirname
 
 sys.path.insert(0, os.path.abspath('../..'))
-sys.path.insert(0, os.path.abspath('../../docs_italia_theme'))
+sys.path.insert(0, os.path.abspath('../../docs_cnr_theme'))
 
 # -- PROJECT Variables ------------------------------------------------
 settings_project_name = 'Docs Italia Demo'
@@ -37,7 +37,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.doctest',
-    'docs_italia_theme',
+    'docs_cnr_theme',
 ]
 
 # Math
@@ -121,7 +121,7 @@ if on_rtd:
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'docs_italia_theme'
+html_theme = 'docs_cnr_theme'
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["../.."]

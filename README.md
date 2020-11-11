@@ -18,17 +18,17 @@ upcoming Docs Italia.
 
     ```
     # Add this line at the top of the file within the "import" section
-    import docs_italia_theme
+    import docs_cnr_theme
 
-    # Add the Sphinx extension 'docs_italia_theme' in the extensions list
+    # Add the Sphinx extension 'docs_cnr_theme' in the extensions list
     extensions = [
       ...,
-      'docs_italia_theme'
+      'docs_cnr_theme'
     ]
 
     # Edit these lines
-    html_theme = "docs_italia_theme"
-    html_theme_path = [docs_italia_theme.get_html_theme_path()]
+    html_theme = "docs_cnr_theme"
+    html_theme_path = [docs_cnr_theme.get_html_theme_path()]
     ```
 
 ## Contributing or modifying the theme

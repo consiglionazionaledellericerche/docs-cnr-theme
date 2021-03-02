@@ -49,7 +49,8 @@ module.exports = themeMarkupModifier = (function ($) {
           $element.html(title.replace(number , '<span class="title__chapter">' + number + '</span>'));
           $element.addClass('title-has-nav');
           $element.closest('.title-wrap').append('<span class="title__background">');
-          $element.closest('.chapter-header').addClass('has-nav');
+          $element.closest('.title-wrap').addClass('has-nav col');
+          $element.closest('.chapter-header').addClass('has-nav row');
         }
       });
       that.titleReady = true;
